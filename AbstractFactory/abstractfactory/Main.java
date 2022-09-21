@@ -11,8 +11,8 @@ public class Main {
 	public static void main(String[] args) {
 		
 	
-		Factory f = new Adidas();
-		//Factory f = new Boss();
+	//	Factory f = new Adidas();
+		Factory f = new Boss();
 		
 		Lippis lippis = f.createLippis();
 		Tpaita tpaita = f.createTpaita();
