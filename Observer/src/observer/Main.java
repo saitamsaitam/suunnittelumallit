@@ -8,10 +8,10 @@ public class Main {
 		ClockTimer timer = new ClockTimer();
 
 		DigitalClock dc = new DigitalClock(timer);
-		AnalogClock ac = new AnalogClock(timer);
+		//AnalogClock ac = new AnalogClock(timer);
 		
 		timer.addObserver(dc);
-		timer.addObserver(ac);
+		//timer.addObserver(ac);
 		
 
 		new Thread(timer).start();

@@ -22,7 +22,7 @@ private ClockTimer timer;
 		int hour = timer.getHour();
 		int minute = timer.getMinute();
 		int second = timer.getSecond();
-		System.out.println("Analog		Hour: " + hour + ", minute: " + minute + ", second: " + second);
+		System.out.println("Analog   " + hour + ":" + minute + ":" + second);
 	}
 	
 	

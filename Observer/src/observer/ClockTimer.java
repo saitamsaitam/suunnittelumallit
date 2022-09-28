@@ -49,12 +49,18 @@ public class ClockTimer extends Observable implements Runnable {
 				minute = 0;
 				second = 0;
 			}
+			
+			if(hour > 23) {
+				hour = 0;
+				minute = 0;
+				second = 0;
+			}
 		
 			setChanged();
 			notifyObservers();
 
 			try {
-				Thread.sleep(1000);
+				Thread.sleep(1);
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
