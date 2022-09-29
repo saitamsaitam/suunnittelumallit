@@ -3,7 +3,7 @@ package singleton;
 public class Country {
 
 	public String name;
-	President p = President.getInstance();
+	President p;
 	
 	public Country(String name, President p) {
 		this.name = name;
@@ -13,7 +13,7 @@ public class Country {
 
 	@Override
 	public String toString() {
-		return "Country: " + name + ", President is " + p.getName();
+		return "Country: " + name + ", President: " + p.getName();
 	}
 	
 	
