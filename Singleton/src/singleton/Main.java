@@ -16,10 +16,6 @@ public class Main {
 		System.out.println("Presidentti: " + y.getName());
 		System.out.println("Presidentti: " + z.getName());
 
-		// Printing the hash code 
-		System.out.println("Hashcode of x is " + x.hashCode());
-		System.out.println("Hashcode of y is " + y.hashCode());
-		System.out.println("Hashcode of z is " + z.hashCode());
 
 		
 		

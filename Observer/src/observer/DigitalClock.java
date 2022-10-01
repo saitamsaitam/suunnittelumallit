@@ -21,7 +21,7 @@ public class DigitalClock  implements Observer{
 		int hour = timer.getHour();
 		int minute = timer.getMinute();
 		int second = timer.getSecond();
-		System.out.println("Digital		Hour: " + hour + ", minute: " + minute + ", second: " + second);
+		System.out.println("Digital  " + hour + ":" + minute + ":" + second);
 	}
 
 
