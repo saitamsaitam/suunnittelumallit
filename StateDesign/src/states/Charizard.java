@@ -31,7 +31,7 @@ Pokemon pokemon;
 
 	@Override
 	public void evolve() {
-		System.out.println("\nCharizard cannot evolve further because it doesn't have a Key Stone\n");
+		System.out.println("\nCharizard cannot evolve\n");
 	}
 
 
